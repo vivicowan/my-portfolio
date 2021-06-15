@@ -1,3 +1,18 @@
+:root {
+	--crater-brown: #422425;
+	--brandy-rose: #B78786;
+	--pearl-blush: #E4D9CB;
+	--kabul: #5C503D;
+ }
+ 
+ body {
+	font-family: Optima;
+ } 
+
+ h1 {
+	 font-size: 40px;
+ }
+
 /* Format for header. */
 header {
 	width: 96%;
@@ -11,6 +26,7 @@ header {
 	margin: 10px;
 	flex-wrap: wrap;
 	flex-direction: row;
+	font-size: 20px;
  }
 
 
