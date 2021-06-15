@@ -5,6 +5,11 @@
 	--kabul: #5C503D;
  }
  
+ * {
+	 background-color: var(--pearl-blush);
+	 color: var(--crater-brown);
+ }
+
  body {
 	font-family: Optima;
  } 
