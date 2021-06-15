@@ -10,14 +10,13 @@
  } 
 
  h1 {
-	 font-size: 40px;
+	 font-size: 20px;
  }
 
 /* Format for header. */
 header {
 	width: 96%;
-	margin: 0 auto;
-	padding: 2.5rem;
+	margin: 10px;
 	text-align: center;
  }
  
@@ -27,6 +26,12 @@ header {
 	flex-wrap: wrap;
 	flex-direction: row;
 	font-size: 20px;
+ }
+
+ .intro-photo {
+	 width: 200px;
+	 height: 250px;
+	 object-fit: cover;
  }
 
 
