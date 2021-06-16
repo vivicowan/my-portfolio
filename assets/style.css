@@ -12,10 +12,6 @@
 
  }
 
- * {
-	color: var(--albescent-white);
- }
-
  .taupe {
 	 color: var(--taupe);
  }
@@ -70,11 +66,12 @@ strong {
 }
 
  .intro-photo {
-	 width: 300px;
+	 width: 275px;
 	 height: 350px;
 	 object-fit: cover;
 	 border-radius: 70px 70px 5px 5px;
 	 margin-left: 150px;
+	 box-shadow: 10px 10px 5px var(--cornflower-blue);
  }
 
 .intro {
@@ -91,6 +88,7 @@ strong {
 	height: 500px;
 	object-fit: cover;
 	border-radius: 90px 90px 5px 5px;
+	box-shadow: 10px 10px 5px var(--cornflower-blue);
 }
 
 .info {
@@ -128,7 +126,7 @@ strong {
 }
 
 .box:hover {
-	box-shadow: inset 0px 0px 8px var(--cornflower-blue), 0 0 15px var(--cornflower-blue);
+	box-shadow: inset 0px 0px 10px var(--cornflower-blue), 0 0 15px var(--cornflower-blue);
  }
 
 @media screen and (min-width: 768px) {
