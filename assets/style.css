@@ -69,6 +69,8 @@ strong {
 	font-weight: bold;
 	display: block;
 	color: var(--cornflower-blue);
+	font-family: monospace;
+	font-size: 3rem;
 }
 
  .intro-photo {
