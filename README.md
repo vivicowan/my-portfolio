@@ -8,5 +8,5 @@ Provide a short description explaining the what, why, and how of your project. U
 - What problem does it solve?
 - What did you learn?
 
-## Screenshot
-assets/images/screenshot.png
+## Webpage
+![Screen Shot](assets/images/screenshot.png)
