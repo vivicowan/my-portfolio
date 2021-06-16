@@ -9,4 +9,4 @@ Provide a short description explaining the what, why, and how of your project. U
 - What did you learn?
 
 ## Webpage
-![Screen Shot](assets/images/screenshot.png)
+![Screen Shot](/images/screenshot.png)
