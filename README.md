@@ -9,5 +9,4 @@ Provide a short description explaining the what, why, and how of your project. U
 - What did you learn?
 
 ## Screenshot
-
-[alt text](assets/images/screenshot.png)
+(assets/images/screenshot.png)
