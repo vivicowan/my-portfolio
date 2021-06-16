@@ -66,11 +66,12 @@ strong {
  }
 
 .intro {
-	position: relative;
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 50px;
+	margin-right: 50px;
 	padding: 20px;
-	text-align: center;
-	grid-template-columns: min-content max-content;
 }
 
 /* About Section */
@@ -93,7 +94,8 @@ strong {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 
