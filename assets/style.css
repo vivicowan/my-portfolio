@@ -22,10 +22,14 @@
 	font-family: Optima;
  } 
 
- h1 { font-size: var(--fs-h1) }
- h2 { font-size: var(--fs-h2) }
- h3 { font-size: var(--fs-h3) }
- h4 { font-size: var(--fs-h4) }
+ h1 { font-size: var(--fs-h1); }
+ h2 { font-size: var(--fs-h2); }
+ h3 { 
+	 font-size: var(--fs-h3);
+	 text-align: center;
+	 padding-top: 40px;
+}
+ h4 { font-size: var(--fs-h4); }
 
 /* Format for header. */
 header {
@@ -79,11 +83,6 @@ strong {
 	border-radius: 90px 90px 5px 5px;
 }
 
-.about-me h3 {
-	text-align: center;
-	padding-top: 40px;
-}
-
 .info {
 	display: flex;
 	align-items: center;
@@ -93,11 +92,6 @@ strong {
 }
 
 /* Services section */
-.services {
-	text-align: center;
-	padding-top: 40px;
-}
-
 .icons {
 	display: flex;
 	flex-direction: row;
@@ -110,7 +104,8 @@ strong {
 	height: 80px;
 }
 
-
+ 
+/* Work Section */
 
 .box {
 	height: 150px;
