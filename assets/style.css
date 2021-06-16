@@ -134,6 +134,12 @@ strong {
 	margin-right: 100px;
 }
 
+.info p {
+	font-size: 1.3rem;
+	text-align: center;
+	margin: 8px;
+}
+
 /* Work Section */
 .box {
 	height: 200px;
