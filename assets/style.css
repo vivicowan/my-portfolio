@@ -12,8 +12,11 @@
 
  }
 
- .taupe {
-	 color: var(--taupe);
+ * {
+	 box-sizing: border-box;
+	 padding: 0;
+	 margin: 0;
+	 list-style-type: none;
  }
  
  html {
@@ -39,16 +42,14 @@ header {
 	text-align: center;
 	padding: 10px;
 	height: 150px;
-	border: 3px solid black;
+	border: 3px var(--cornflower);
 	color: var(--taupe);
 	background-color: var(--cornflower);
-	margin: 10px
  }
  
- header nav ul li {
+ .nav li{
 	display: inline-block;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin: 40px;
 	flex-wrap: wrap;
 	flex-direction: row;
 	font-size: 30px;
@@ -115,7 +116,6 @@ strong {
 
  
 /* Work Section */
-
 .box {
 	height: 150px;
 	border: 3px solid black;
@@ -143,3 +143,6 @@ strong {
 		flex: 0 1 100%;
 	}
 }
+
+/* Contact Section */
+
