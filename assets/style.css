@@ -99,12 +99,23 @@ strong {
 }
 
 /* Services section */
+.services {
+	text-align: center;
+	padding-top: 40px;
+}
+
 .icons {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: center;	
+	justify-content: space-evenly;	
 }
+
+.icons img {
+	width: 80px;
+	height: 80px;
+}
+
 
 
 .box {
