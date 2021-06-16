@@ -1,8 +1,9 @@
 :root {
-	--crater-brown: #422425;
-	--brandy-rose: #B78786;
-	--pearl-blush: #E4D9CB;
-	--kabul: #5C503D;
+	--albescent-white: #f6e6d4;
+	--pickeled-bluewood: #2b4448;
+	--cornflower-blue: #6e9be8;
+	--cornflower: #85ADDE;
+	--taupe: #4f4038;
 
 	--fs-h1: 1.5rem;
 	--fs-h2: 2.5rem;	
@@ -10,13 +11,18 @@
 	--fs-h4: 1.25rem;
 
  }
- 
+
  * {
-	 color: var(--crater-brown);
+	color: var(--albescent-white);
  }
 
+ .taupe {
+	 color: var(--taupe);
+ }
+ 
  html {
-	 background-color: var(--pearl-blush);
+	 background-color: var(--pickeled-bluewood);
+	 color: var(--albescent-white);
  }
  body {
 	font-family: Optima;
@@ -35,9 +41,12 @@
 header {
 	width: 100%;
 	text-align: center;
-	border: #E4D9CB;
 	padding: 10px;
-	background-color: var(--brandy-rose);
+	height: 150px;
+	border: 3px solid black;
+	color: var(--taupe);
+	background-color: var(--cornflower);
+	margin: 10px
  }
  
  header nav ul li {
@@ -76,6 +85,7 @@ strong {
 }
 
 /* About Section */
+
 .about-photo {
 	width: 400px;
 	height: 500px;
@@ -97,6 +107,7 @@ strong {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;	
+	text-align: center;
 }
 
 .icons img {
@@ -117,7 +128,7 @@ strong {
 }
 
 .box:hover {
-	box-shadow: inset 0px 0px 8px var(--kabul), 0 0 15px var(--kabul);
+	box-shadow: inset 0px 0px 8px var(--cornflower-blue), 0 0 15px var(--cornflower-blue);
  }
 
 @media screen and (min-width: 768px) {
