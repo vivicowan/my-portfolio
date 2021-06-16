@@ -12,10 +12,12 @@
  }
  
  * {
-	 background-color: var(--pearl-blush);
 	 color: var(--crater-brown);
  }
 
+ html {
+	 background-color: var(--pearl-blush);
+ }
  body {
 	font-family: Optima;
  } 
@@ -27,18 +29,22 @@
 
 /* Format for header. */
 header {
-	width: 96%;
-	margin: 10px;
+	width: 100%;
 	text-align: center;
+	border: #E4D9CB;
+	padding: 10px;
+	background-color: var(--brandy-rose);
  }
  
  header nav ul li {
 	display: inline-block;
-	margin: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
 	flex-wrap: wrap;
 	flex-direction: row;
-	font-size: 20px;
+	font-size: 30px;
  }
+
 
 
  /* Intro Section */
