@@ -12,6 +12,7 @@
 
  }
 
+ /* Universal element to remove any defaualt browser settings and set text color. */
  * {
 	 box-sizing: border-box;
 	 padding: 0;
