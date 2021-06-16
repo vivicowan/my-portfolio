@@ -82,6 +82,23 @@ strong {
 	padding: 20px;
 }
 
+
+/* Services section */
+.icons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;	
+	text-align: center;
+}
+
+.icons img {
+	width: 80px;
+	height: 80px;
+}
+
+ 
+
 /* About Section */
 
 .about-photo {
@@ -100,21 +117,6 @@ strong {
 	margin-right: 100px;
 }
 
-/* Services section */
-.icons {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-evenly;	
-	text-align: center;
-}
-
-.icons img {
-	width: 80px;
-	height: 80px;
-}
-
- 
 /* Work Section */
 .box {
 	height: 200px;
