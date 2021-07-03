@@ -13,10 +13,8 @@
  }
 
  /* Universal element to remove any defaualt browser settings and set text color. */
- * {
+ /* * {
 	 box-sizing: border-box;
-	 padding: 0;
-	 margin: 0;
 	 list-style-type: none;
 	 color: var(--albescent-white);
  }
@@ -31,7 +29,6 @@
 
  h1 { 
 	 font-size: var(--fs-h1);
-	 background-color: var(--cornflower-blue);
 	 color: var(--taupe);
  }
  h2 { font-size: var(--fs-h2); }
@@ -40,28 +37,17 @@
 	 text-align: center;
 	 padding: 40px;
 }
- h4 { font-size: var(--fs-h4); }
+ h4 { font-size: var(--fs-h4); } */
 
 /* Format for header. */
-header {
-	width: 100%;
-	text-align: center;
-	padding: 10px;
-	height: 150px;
-	border: 3px var(--taupe);
-	background-color: var(--taupe);
- }
- 
+
  .nav li{
-	display: inline-block;
-	margin: 40px;
-	flex-wrap: wrap;
-	flex-direction: row;
-	font-size: 30px;
+	margin: 10px;
+	float: right;
  }
 
  /* Intro Section */
- .intro h2 {
+/* .intro h2 {
 	 font-weight: 300;
 	 padding-left: 50px;
  }
@@ -72,9 +58,9 @@ strong {
 	color: var(--cornflower-blue);
 	font-family: monospace;
 	font-size: 3rem;
-}
+} */
 
- .intro-photo {
+.intro-photo {
 	 width: 275px;
 	 height: 350px;
 	 object-fit: cover;
@@ -83,16 +69,16 @@ strong {
 	 box-shadow: 10px 10px 5px var(--cornflower-blue);
  }
 
-.intro {
+/* .intro {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 	padding: 20px;
-}
+} */
 
 
 /* Services section */
-.services {
+/* .services {
 	margin-top: 40px;
 	margin-bottom: 40px;
 	background-color: var(--taupe);
@@ -113,13 +99,13 @@ strong {
 	width: 80px;
 	height: 80px;
 	margin: 20px;
-}
+} */
 
  
 
 /* About Section */
 
-.about-photo {
+/* .about-photo {
 	width: 400px;
 	height: 500px;
 	object-fit: cover;
@@ -139,10 +125,10 @@ strong {
 	font-size: 1.3rem;
 	text-align: center;
 	margin: 8px;
-}
+} */
 
 /* Work Section */
-.box {
+/* .box {
 	height: 200px;
 	border: 3px solid var(--taupe);
 	font-weight: bold;
@@ -183,10 +169,10 @@ strong {
 	.box-featured {
 		flex: 0 1 100%;
 	}
-}
+} */
 
 /* Contact Section */
-.contact {
+/* .contact {
 	margin-top: 40px;
 	background-color: var(--cornflower-blue);
 } 
@@ -213,4 +199,4 @@ strong {
 	margin: 20px;
 }
 
-
+ */
