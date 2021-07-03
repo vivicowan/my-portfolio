@@ -105,7 +105,7 @@ strong {
 
 /* About Section */
 
-/* .about-photo {
+.about-photo {
 	width: 400px;
 	height: 500px;
 	object-fit: cover;
@@ -113,7 +113,7 @@ strong {
 	box-shadow: 10px 10px 5px var(--cornflower-blue);
 }
 
-.info {
+/* .info {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -125,7 +125,7 @@ strong {
 	font-size: 1.3rem;
 	text-align: center;
 	margin: 8px;
-} */
+}  */
 
 /* Work Section */
 /* .box {
