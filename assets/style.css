@@ -21,7 +21,7 @@
  
  html {
 	 background-color: var(--pickeled-bluewood); 
- }
+ } 
 
  body {
 	font-family: Optima;
@@ -78,7 +78,7 @@ strong {
 
 
 /* Services section */
-/* .services {
+.services {
 	margin-top: 40px;
 	margin-bottom: 40px;
 	background-color: var(--taupe);
@@ -99,7 +99,7 @@ strong {
 	width: 80px;
 	height: 80px;
 	margin: 20px;
-} */
+}
 
  
 
@@ -128,7 +128,7 @@ strong {
 }  */
 
 /* Work Section */
-/* .box {
+.box {
 	height: 200px;
 	border: 3px solid var(--taupe);
 	font-weight: bold;
@@ -172,7 +172,7 @@ strong {
 } */
 
 /* Contact Section */
-/* .contact {
+.contact {
 	margin-top: 40px;
 	background-color: var(--cornflower-blue);
 } 
@@ -199,4 +199,4 @@ strong {
 	margin: 20px;
 }
 
- */
+
